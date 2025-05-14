@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/auth/discord$",        "dest": "/api/auth/discord.js" },
+    { "src": "/auth/discord/callback$", "dest": "/api/auth/callback.js" }
+  ]
+}
